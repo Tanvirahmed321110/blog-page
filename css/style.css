@@ -133,7 +133,7 @@ header{
 }
  .per-card{
     background-color: rgba(208, 218, 218, 0.945);
-    height: 500px;
+    height: 550px;
   }
   
   .per-card-image{
@@ -242,3 +242,34 @@ footer p{margin-top: 13px;}
     letter-spacing: .5px;
 }
 
+
+
+
+
+
+/* responcive  */
+@media only screen and (max-width:800px){
+
+  .card-container{
+    grid-template-columns:1fr;
+  }
+  
+  /* .nav-main-container{
+    flex-direction: column;
+  } */
+  
+  header{height:auto;}
+  
+  .nav-item ul{flex-direction: column;}
+  
+  .nav-item ul li{border: 1px solid oldlace;
+        border-radius: 4px;width: 108px;
+        background-color: aliceblue;margin:4px;
+        margin-right: -22px;
+  }
+ 
+  #btn{
+    width: 110px;
+    margin-left: -0px;
+  }
+}
