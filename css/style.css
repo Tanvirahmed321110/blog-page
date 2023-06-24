@@ -1,0 +1,244 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.container{
+    width: 77%;
+    margin: 0 auto;
+}
+p{
+    font-weight: 400;
+    color: black;
+    font-size: 16px;
+    letter-spacing: .5px;
+    line-height: 25px;
+    margin-top: 19px;
+}
+
+/* header start */
+.nav-main-container{
+    display: flex;
+    align-items: center;
+}
+header{
+    background-color: #eaeaea;
+    width: 100%;
+    height: 180px;
+    padding: 25px 0;
+}
+
+.logo-section a img{
+    width: 170px;
+    height: 128px;
+}
+
+/* nav item  */
+
+.nav-item{
+    margin-left: auto;
+    padding-right: 18px;
+    padding-top: 11px;
+}
+
+.nav-item ul{
+    display: flex;
+    align-items: center;
+   
+}
+
+.active{
+    border-bottom: 4px solid blueviolet;
+    padding-bottom: 9px;
+ 
+}
+
+.nav-item li{
+    padding: 10px;
+    margin-left: 32px;
+}
+
+.nav-item a{
+    text-decoration: none;
+    font-size: 19px;
+    color: #2e333e;
+    padding-bottom: 7px;
+    font-weight: 400;
+}
+
+/* hover in nav item */
+.nav-item a:hover{
+    border-bottom:4px solid blueviolet;
+    transition: all .1s linear;
+    color: brown;
+}
+
+
+#btn{
+    background-color: #0066f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 99px;
+    height: 47px;
+    padding-top: 15px;
+    margin-left:40px;
+    border-radius: 2px;
+    padding-left: 49px;
+    
+}
+#btn a{
+    color: white;
+    text-align: center;
+    margin-right: 37px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* main style start */
+ main{padding: 55px 0;}
+ .home-container h1{
+    font-weight: 600;
+    font-size: 37px;
+    letter-spacing: .5x;
+    margin-bottom: 35px;
+ }
+ .home-container hr{
+    margin:26px 0;
+ }
+ 
+/* card item in main */
+.card-container{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap:25px;
+}
+.card-container a{
+    text-decoration: none;
+    color: black;
+}
+ .per-card{
+    background-color: rgba(208, 218, 218, 0.945);
+    height: 500px;
+  }
+  
+  .per-card-image{
+    width: 100%;
+    height: 300px;
+  }
+  .per-card-image img{
+    width: 100%;
+    height: 300px;
+    /* object-fit: cover; */
+    object-position:center;
+  }
+  .per-card-info{
+    padding: 25px 25px 35px 35px;
+  }
+  .small{
+    font-size: 13px;
+    margin-top: -5px;
+  }
+  .blog-h1{
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 38px;
+  }
+  .per-card-info h3{
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-top: 20px;
+  }
+  .gatsby-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .gatsby-main div{
+    margin-top: -22px;
+    background-color: #0066f9;
+    color: white;
+    padding: 12px;
+    width: 77px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+  .card-container p a{
+    text-decoration: underline;
+  }
+  /* hover in card */
+   .per-card:hover{
+     transform: scale(1.03);
+     transition: all .9s ease;
+     background-color: orange;
+   }
+   
+   
+    
+   
+   
+   
+   /* block item for page */
+   .item{
+     width: 100%;
+     border: 2px solid blue;
+     margin: 55px 0;
+   }
+    .item img{
+        width: 100%;
+        height: 400px;
+        margin: 35px 0;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 10px;
+    }
+    
+    .item h1{
+        font-size: 37px;
+        font-weight: 700;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 25px 0;
+    }
+   
+   
+   
+   
+/* footer style start */
+.hr{
+   border: 1px solid rgb(240, 236, 201);
+}
+
+footer{
+    padding: 29px 0;
+  
+}
+footer p{margin-top: 13px;}
+
+.footers-icon i{
+    padding-right: 20px;
+    font-size: 45px;
+    color: #0066f9;
+}
+.footer-blog a{
+    font-weight: 400;
+    color: #2e333e;
+    font-size: 15px;
+    letter-spacing: .5px;
+}
+
